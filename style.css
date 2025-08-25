@@ -1,0 +1,88 @@
+p {
+    font-weight: bold;
+}
+
+
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ba88ae;
+}
+
+
+.container {
+  padding: 20px;
+  background: #f3ccde;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Amount input  */
+.user-input input{
+    padding: 0.5rem 5rem;
+}
+
+/* currency selector */
+.currency-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.currency-selector select {
+    padding: 0.5rem 1.5rem;
+}
+
+img {
+    width: 30px;
+    margin-top: 50px;
+    transition: transform 0.3s ease;
+}
+img:hover {
+  transform: rotate(180deg);
+}
+
+.user-input input,
+.currency-selector select {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.user-input input:focus,
+.currency-selector select:focus {
+  border-color: #9c4d80;
+  box-shadow: 0 0 5px rgba(156,77,128,0.6);
+}
+
+/* Exchange button */
+#exchange-btn {
+    text-align: center;
+}
+
+#exchange-btn button {
+    margin-top: 20px;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    background-color: #d6a8c4;
+    color: black;
+    border: none;
+    font-size: medium;
+    border-radius: 20px;
+}
+
+.result  {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+#exchange-btn button:hover {
+  background-color: #c387ad;
+  cursor: pointer;
+}

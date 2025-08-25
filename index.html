@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+       <h1 id="title">Currency Converter</h1>
+
+       <div class="user-input" value="1">
+        <p>Enter Amount</p>
+        <input type="number" id="amount">
+       </div>
+
+       <div class="currency-selector">
+        <div>
+          <p>From</p>
+          <select class="countries" id="from"></select>
+        </div>
+
+        <div id="exchange-icon">
+            <img src="./assets/exchange.png" alt="exchange-icon">
+        </div>
+        
+        <div>
+          <p>To</p>
+          <select class="countries" id="to"></select>
+        </div>
+       </div>
+       <br>
+       <div class="result">
+        <p></p>
+       </div>
+
+       <div id="exchange-btn">
+        <button>Get Exchange Rate</button>
+       </div>
+
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+        
