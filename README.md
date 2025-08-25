@@ -13,5 +13,5 @@ A simple web app built with **HTML, CSS, and JavaScript** that converts one curr
 ## ⚡ How to Run Locally  
 1. Clone this repository:  
    ```bash
-   https://github.com/malacodess/Currency-Converter.git
+   git clone https://github.com/malacodess/Currency-Converter.git
    cd Currency-Converter
